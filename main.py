@@ -42,7 +42,6 @@ def main():
     # Save the signature lines to a JSON file
     signature_saver.save_signature_to_json()
 
-
 if __name__ == "__main__":
     #sample input: python main.py data output.json
     main()
