@@ -7,10 +7,12 @@ class SignatureGenerator:
 
     def find_unique_marker_lines(self):
         # Split the text into individual lines
-        lines = self.__text.splitlines()
+        # lines = self.__text.splitlines()
+        lines = self.__text.split(".")
 
         # Count the occurrences of each line using a Counter
         line_counts = Counter(lines)
+        # print(line_counts)
 
         # Initialize an empty set to store unique marker lines
         unique_lines = set()
